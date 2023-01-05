@@ -1,0 +1,21 @@
+.table-pilihan th {
+  cursor: pointer;
+}
+
+.table-pilihan .th-sort-asc::after {
+  content: "\25b4";
+}
+
+.table-pilihan .th-sort-desc::after {
+  content: "\25be";
+}
+
+.table-pilihan .th-sort-asc::after,
+.table-pilihan .th-sort-desc::after {
+  margin-left: 5px;
+}
+
+.table-pilihan .th-sort-asc,
+.table-pilihan .th-sort-desc {
+  background: rgba(0, 0, 0, 0.1);
+}
